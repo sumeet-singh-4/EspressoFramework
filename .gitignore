@@ -1,0 +1,136 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+.gradle/
+
+# Gradle files
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio
+*.iml
+.idea/
+.idea/*
+*.iws
+*.ipr
+*~
+*.swp
+captures/
+.navigation/
+.externalNativeBuild/
+.cxx/
+
+# NDK
+obj/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test results
+/reports/
+/test-output/
+/allure-results/
+/allure-report/
+/build/reports/
+/build/test-results/
+
+# Screenshots and videos
+screenshots/
+videos/
+*.png
+*.jpg
+*.mp4
+
+# Logs
+*.log
+logs/
+
+# Backup files
+*.bak
+*.tmp
+*.orig
+
+# IntelliJ
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/caches
+.idea/deploymentTargetDropDown.xml
+
+# Android Studio 3 in .gitignore file.
+.idea/caches/build_file_checksums.ser
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+
+# Kotlin
+.kotlin/
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
+
+# Version control
+.svn/
+.git/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Android Profiling
+*.hprof

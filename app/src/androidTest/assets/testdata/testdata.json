@@ -1,0 +1,46 @@
+{
+  "validUser": {
+    "username": "test@webdriver.io",
+    "password": "Test1234!",
+    "email": "test@webdriver.io",
+    "firstName": "Test",
+    "lastName": "User"
+  },
+  "invalidUser": {
+    "username": "invalid@test.com",
+    "password": "wrongpass",
+    "email": "invalid@test.com"
+  },
+  "emptyCredentials": {
+    "username": "",
+    "password": ""
+  },
+  "testUsers": [
+    {
+      "username": "user1@test.com",
+      "password": "Pass1234!",
+      "role": "admin"
+    },
+    {
+      "username": "user2@test.com",
+      "password": "Pass5678!",
+      "role": "user"
+    },
+    {
+      "username": "user3@test.com",
+      "password": "Pass9012!",
+      "role": "guest"
+    }
+  ],
+  "apiEndpoints": {
+    "login": "/api/v1/login",
+    "logout": "/api/v1/logout",
+    "register": "/api/v1/register",
+    "profile": "/api/v1/profile"
+  },
+  "testConfig": {
+    "timeout": 30,
+    "retryCount": 3,
+    "screenshotOnFailure": true
+  }
+}
