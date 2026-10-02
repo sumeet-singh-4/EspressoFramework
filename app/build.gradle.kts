@@ -126,9 +126,7 @@ dependencies {
 }
 
 allure {
-    version = "2.25.0"
-    resultsDir = file("build/allure-results")
-    reportDir = file("build/reports/allure-report")
+    version.set("2.25.0")
 }
 
 tasks.register("clearAllureResults") {
